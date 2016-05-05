@@ -1,0 +1,7 @@
+
+pod 'AFNetworking'
+pod 'Masonry', '~> 0.6.2'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'MWPhotoBrowser', '~>2.1.1'
+
