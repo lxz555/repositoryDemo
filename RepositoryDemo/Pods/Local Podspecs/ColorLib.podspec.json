@@ -1,0 +1,19 @@
+{
+  "name": "ColorLib",
+  "version": "0.1.0",
+  "summary": "A short description of ColorLib.",
+  "description": "convert hex system or a color string to a color.Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/lxz555/ColorLib",
+  "license": "MIT",
+  "authors": {
+    "李雪智": "xuezhi.li@husor.com"
+  },
+  "source": {
+    "git": "https://github.com/lxz555/ColorLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ColorLib/Classes/**/*"
+}

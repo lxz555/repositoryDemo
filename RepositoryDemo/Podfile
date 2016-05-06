@@ -1,7 +1,8 @@
-
+platform :ios, '6.0'
 pod 'AFNetworking'
 pod 'Masonry', '~> 0.6.2'
 pod 'SDWebImage'
 pod 'MBProgressHUD'
 pod 'MWPhotoBrowser', '~>2.1.1'
-
+#制作的自己的pod仓库，把代码放进去，供方便的使用。
+pod 'ColorLib', :git =>'https://github.com/lxz555/ColorLib.git'
