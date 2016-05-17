@@ -22,9 +22,9 @@ PODS:
     - DACircularProgress (~> 2.3)
     - MBProgressHUD (~> 0.9)
     - SDWebImage (!= 3.7.2, ~> 3.7)
-  - SDWebImage (3.7.5):
-    - SDWebImage/Core (= 3.7.5)
-  - SDWebImage/Core (3.7.5)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
 
 DEPENDENCIES:
   - AFNetworking
@@ -40,16 +40,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ColorLib:
-    :commit: 7f7166a66833714c41621d5ed1def87ec6aa03b3
+    :commit: e1dfcbd5a397744d72386f5dfdea1d0b69a40880
     :git: https://github.com/lxz555/ColorLib.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ColorLib: 3aca0fd16bac81d3eed3267c9131f39aed563989
+  ColorLib: 4abd456e73dd9e944635bdd04998a4abd73702dc
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
-  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
 COCOAPODS: 0.39.0
