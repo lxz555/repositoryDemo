@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '39EB6BFA83C0348E1128FE62'
-               BlueprintName = 'MWPhotoBrowser-MWPhotoBrowser'
+               BlueprintIdentifier = 'FE34100F05ACA57CC5FB2240'
+               BlueprintName = 'JSPatch'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'MWPhotoBrowser.bundle'>
+               BuildableName = 'libJSPatch.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
