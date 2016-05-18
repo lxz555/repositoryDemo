@@ -1,0 +1,67 @@
+//
+//  Global.pch
+//  RepositoryDemo
+//
+//  Created by 李雪智 on 16/5/18.
+//  Copyright © 2016年 李雪智. All rights reserved.
+//
+
+/**
+ * 首先说一下pch的作用：
+ 1.存放一些全局的宏(整个项目中都用得上的宏)
+ 2.用来包含一些全部的头文件(整个项目中都用得上的头文件)
+ 3.能自动打开或者关闭日志输出功能
+ */
+
+#ifndef Global_pch
+#define Global_pch
+
+#import "AFNetworking.h"
+#import "UIColor+hex.h"
+
+/*
+ *屏幕宽度和高度
+ */
+#define SCREEN_WIDTH ([[UIScreen mainScreen]bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen]bounds].size.height)
+
+/**
+ *  color
+ */
+#define ColorNavigationBarBackground  [UIColor colorWithHex:0xff6600]
+#define NormalBackgroundColor [UIColor colorWithHex:0xf2f2f2]
+#define ColorGreen [UIColor colorWithHex:0x7dcc08]
+#define LineColor [UIColor colorWithHex:0xe4e4e4]
+#define Color666666 [UIColor colorWithHex:0x666666]
+#define Color333333 [UIColor colorWithHex:0x333333]
+#define Color999999 [UIColor colorWithHex:0x999999]
+#define ColorAAAAAA [UIColor colorWithHex:0xaaaaaa]
+#define Colorf2f2f2 [UIColor colorWithHex:0xf2f2f2]
+#define Colorf6f6f6 [UIColor colorWithHex:0xf6f6f6]
+#define Colorf7f7f7 [UIColor colorWithHex:0xf7f7f7]
+#define Colorf9f9f9 [UIColor colorWithHex:0xf9f9f9]
+#define Color383838 [UIColor colorWithHex:0x383838]
+#define Color858585 [UIColor colorWithHex:0x858585]
+#define ColorCCCCCC [UIColor colorWithHex:0xcccccc]
+#define ColorDDDDDD [UIColor colorWithHex:0xdddddd]
+#define ColorEEEEEE [UIColor colorWithHex:0xeeeeee]
+#define ColorFFFFFF [UIColor colorWithHex:0xffffff]
+#define ColorCECECE [UIColor colorWithHex:0xcecece]
+#define Color505050 [UIColor colorWithHex:0x505050]
+#define Colore4e4e4 [UIColor colorWithHex:0xe4e4e4]
+#define ColorE5E5E5 [UIColor colorWithHex:0xe5e5e5]
+#define Color151515 [UIColor colorWithHex:0x151515]
+#define CodeButtonBackground [UIColor colorWithHex:0xff6600]
+#define CommitButtonBackground [UIColor colorWithHex:0xfe7800]
+
+#define Colorff3c00       [UIColor colorWithHex:0xff3c00]
+#define OverseaColor      [UIColor colorWithHex:0x984aff]
+#define OverseaTextColor  [UIColor colorWithHex:0x984aff]
+#define ColorFF6600       [UIColor colorWithHex:0xff6600]
+#define ColorFF6699       [UIColor colorWithHex:0xff6699]
+#define ColorFF8C24       [UIColor colorWithHex:0xff8c24]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Global_pch */
