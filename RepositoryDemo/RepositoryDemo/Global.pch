@@ -18,6 +18,7 @@
 
 #import "AFNetworking.h"
 #import "UIColor+hex.h"
+#import "UIView+Frame.h"
 
 /*
  *屏幕宽度和高度
