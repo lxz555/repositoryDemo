@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1E1F5DB90FE2BB86005DE095'
+               BlueprintIdentifier = '1CA37A86C4D00EB5E087672B'
                BlueprintName = 'ColorLib'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libColorLib.a'>
