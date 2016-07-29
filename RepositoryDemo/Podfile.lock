@@ -16,6 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - ColorLib (0.2.0)
   - DACircularProgress (2.3.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - JSPatch (1.1):
     - JSPatch/Core (= 1.1)
   - JSPatch/Core (1.1)
@@ -28,6 +31,8 @@ PODS:
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
+  - XZLocation (0.1.0):
+    - FMDB
 
 DEPENDENCIES:
   - AFNetworking
@@ -37,15 +42,18 @@ DEPENDENCIES:
   - MBProgressHUD
   - MWPhotoBrowser (~> 2.1.1)
   - SDWebImage
+  - XZLocation (~> 0.1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   ColorLib: 5575b099385586988782e8f12a2af3b5d99b2136
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   JSPatch: ade285ad1d8f06146ed6054a39cef87509453299
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  XZLocation: f9436f741efacce841de91e54b0c5193a164009e
 
 COCOAPODS: 0.39.0

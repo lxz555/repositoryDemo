@@ -13,3 +13,4 @@ pod 'JSPatch'
 #pod 'ColorLib', :git =>'https://github.com/lxz555/ColorLib.git', :tag => 'v0.2.0'
 #成功，增加source 'https://github.com/lxz555/spec.git'，就是我自己管理了一份spec，加到source中，可以不用写网址了。
 pod 'ColorLib’, '~>0.2.0’
+pod 'XZLocation’, '~>0.1.0’

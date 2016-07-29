@@ -14,7 +14,9 @@
 		AF04A36C1CD1C13A00B8B5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF04A36A1CD1C13A00B8B5ED /* LaunchScreen.storyboard */; };
 		AF04A3771CD1C13B00B8B5ED /* RepositoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF04A3761CD1C13B00B8B5ED /* RepositoryDemoTests.m */; };
 		AF04A3821CD1C13B00B8B5ED /* RepositoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF04A3811CD1C13B00B8B5ED /* RepositoryDemoUITests.m */; };
+		AF2BB4561D35141800BCA590 /* XZHotFixServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2BB4551D35141800BCA590 /* XZHotFixServer.m */; };
 		AFFB876A1CEC068E00F9AE38 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFB87691CEC068D00F9AE38 /* RootViewController.m */; };
+		AFFC63C01D362BB10017DB50 /* TestJSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = AFFC63BF1D362BB10017DB50 /* TestJSPatch.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +52,12 @@
 		AF04A37D1CD1C13B00B8B5ED /* RepositoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF04A3811CD1C13B00B8B5ED /* RepositoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepositoryDemoUITests.m; sourceTree = "<group>"; };
 		AF04A3831CD1C13B00B8B5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2BB4541D35141800BCA590 /* XZHotFixServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZHotFixServer.h; sourceTree = "<group>"; };
+		AF2BB4551D35141800BCA590 /* XZHotFixServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZHotFixServer.m; sourceTree = "<group>"; };
 		AFFB87681CEC068D00F9AE38 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		AFFB87691CEC068D00F9AE38 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		AFFB876B1CEC0CC600F9AE38 /* Global.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.pch; sourceTree = "<group>"; };
+		AFFC63BF1D362BB10017DB50 /* TestJSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TestJSPatch.js; sourceTree = "<group>"; };
 		D59246C670626B9DE8054C6B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,6 +133,9 @@
 				AF04A3661CD1C13A00B8B5ED /* AppDelegate.m */,
 				AFFB87681CEC068D00F9AE38 /* RootViewController.h */,
 				AFFB87691CEC068D00F9AE38 /* RootViewController.m */,
+				AF2BB4541D35141800BCA590 /* XZHotFixServer.h */,
+				AF2BB4551D35141800BCA590 /* XZHotFixServer.m */,
+				AFFC63BF1D362BB10017DB50 /* TestJSPatch.js */,
 				AF04A3681CD1C13A00B8B5ED /* Assets.xcassets */,
 				AF04A36A1CD1C13A00B8B5ED /* LaunchScreen.storyboard */,
 				AF04A36D1CD1C13A00B8B5ED /* Info.plist */,
@@ -270,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF04A3691CD1C13A00B8B5ED /* Assets.xcassets in Resources */,
+				AFFC63C01D362BB10017DB50 /* TestJSPatch.js in Resources */,
 				AF04A36C1CD1C13A00B8B5ED /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +354,7 @@
 			files = (
 				AF04A3671CD1C13A00B8B5ED /* AppDelegate.m in Sources */,
 				AF04A3641CD1C13A00B8B5ED /* main.m in Sources */,
+				AF2BB4561D35141800BCA590 /* XZHotFixServer.m in Sources */,
 				AFFB876A1CEC068E00F9AE38 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,15 +10,17 @@
 
 @interface RootViewController ()
 
+@property (nonatomic, strong) UILabel *label;
+
 @end
 
 @implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 10)];
-    label.backgroundColor = ColorFF6600;
-    [self.view addSubview:label];
+    _label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 10)];
+    _label.backgroundColor = ColorFF6600;
+    [self.view addSubview:_label];
     // Do any additional setup after loading the view.
 }
 

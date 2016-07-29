@@ -8,8 +8,9 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "XZHotFixServer.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <XZHotFixEncryptionDelegate>
 
 @end
 
@@ -22,10 +23,32 @@
     RootViewController *rootVC = [[RootViewController alloc] init];
     rootVC.view.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     rootVC.view.backgroundColor = ColorFFFFFF;
+    
+    XZHotFixServer *hotFixServer = [XZHotFixServer sharedService];
+    hotFixServer.delegate = self;
+    [XZHotFixServer debugEnable:YES];
+    
+    NSString *pathStr = [[NSBundle mainBundle] pathForResource:@"TestJSPatch" ofType:@"js"];
+    NSString *script = [NSString stringWithContentsOfFile:pathStr encoding:NSUTF8StringEncoding error:nil];
+    [XZHotFixServer evaluateScript:script];
+    
     self.window.rootViewController = rootVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
     return YES;
+}
+
+#pragma mark - hotfix delegate
+
+- (NSString *)encypt:(NSString *)plainText
+{
+    return plainText;
+}
+
+- (NSString *)decypt:(NSString *)encyptText
+{
+    return encyptText;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
