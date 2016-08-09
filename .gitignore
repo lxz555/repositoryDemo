@@ -27,5 +27,15 @@ build/*
 *.pbxuser  
   
 *.xcworkspace  
-  
-xcuserdata  
+
+*.xcuserstate
+
+xcuserdata
+
+UserInterfaceState.xcuserstate
+
+project.xcworkspace/
+
+xcuserdata/
+
+UserInterface.xcuserstate 
