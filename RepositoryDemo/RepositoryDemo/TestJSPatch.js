@@ -1,6 +1,6 @@
 defineClass('RootViewController, UIColor, UILabel', {
             viewDidLoad: function() {
-//            self.ORIGviewDidLoad();
+            self.ORIGviewDidLoad();
             var label = self.label();
             label.setBackgroundColor(UIColor.redColor());
     },
